@@ -121,7 +121,7 @@ body{
 .main{
     display: flex;
     column-gap:30rem;
-    margin-top:12rem;
+    margin-top:2rem;
     align-items: center;
     justify-content: center;
 }
@@ -319,5 +319,26 @@ body{
 }
 
 .shop-by-heading,.about-us-heading,.dress-up-heading{
+    color:var(--color-primary-darker);
+}
+
+
+/* CATEGORIES */
+
+.categories{
+    display: flex;
+    margin-top:15rem;
+    justify-content: space-around;
+    font-size: 2rem;
+    cursor: pointer;
+    color:#333;
+    font-weight: 700;
+}
+
+.categories p:hover{
+   color:var(--color-primary-darker);
+}
+
+.categories p:active{
     color:var(--color-primary-darker);
 }
