@@ -94,6 +94,10 @@ body{
     
 }
 
+.btn-secondary a{
+    text-decoration: none;
+    color:#222;
+}
 
 .btn-secondary:active,
 .btn-secondary:hover{
@@ -102,6 +106,7 @@ body{
     color: #333;
     opacity:1;
 }
+
 
 
 .inp-btn{
