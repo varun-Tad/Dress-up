@@ -232,10 +232,9 @@ body{
 
 .check-box p{
     cursor: pointer;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     
 }
-
 
 .badge-portion:hover{
     background-color: var(--color-primary-opacity); 
