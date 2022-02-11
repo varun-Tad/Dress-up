@@ -106,7 +106,7 @@ body{
 
 .image-container{
     background-color: var(--color-primary-darker);
-    margin-top:10rem;
+    margin-top:9rem;
     height:90vh;
 }
 
@@ -119,8 +119,8 @@ body{
 
 .image-container p{
     position: relative;
-    top:240px;
-    left:450px;
+    top:24rem;
+    left:45rem;
     font-size: 3rem;
     color:#333;
     font-weight: 800;
