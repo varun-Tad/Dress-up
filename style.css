@@ -94,10 +94,6 @@ body{
     
 }
 
-.btn-secondary a{
-    text-decoration: none;
-    color:#222;
-}
 
 .btn-secondary:active,
 .btn-secondary:hover{
@@ -117,6 +113,29 @@ body{
     margin-top:1rem;
    
 }
+
+
+
+/* CATEGORIES */
+
+.categories{
+    display: flex;
+    margin-top:15rem;
+    justify-content: space-around;
+    font-size: 2rem;
+    cursor: pointer;
+    color:#333;
+    font-weight: 700;
+}
+
+.categories p:hover{
+   color:var(--color-primary-darker);
+}
+
+.categories p:active{
+    color:var(--color-primary-darker);
+}
+
 
 
 
@@ -328,22 +347,3 @@ body{
 }
 
 
-/* CATEGORIES */
-
-.categories{
-    display: flex;
-    margin-top:15rem;
-    justify-content: space-around;
-    font-size: 2rem;
-    cursor: pointer;
-    color:#333;
-    font-weight: 700;
-}
-
-.categories p:hover{
-   color:var(--color-primary-darker);
-}
-
-.categories p:active{
-    color:var(--color-primary-darker);
-}

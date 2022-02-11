@@ -1,0 +1,154 @@
+:root {
+    --color-primary: #5ec576;
+    --color-secondary: #ffcb03;
+    --color-tertiary: #ff585f;
+    --color-primary-darker: #4bbb7d;
+    --color-secondary-darker: #ffbb00;
+    --color-tertiary-darker: #fd424b;
+    --color-primary-opacity: #5ec5763a;
+    --color-secondary-opacity: #ffcd0331;
+    --color-tertiary-opacity: #ff58602d;
+    --gradient-primary: linear-gradient(to top left, #39b385, #9be15d);
+    --gradient-secondary: linear-gradient(to top left, #ffb003, #ffcb03);
+  }
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f3f3f3;
+}
+
+.main-navbar{
+    display:flex;
+    background-color: rgba(255, 255, 255, 0.95);
+    height:12rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 11;
+}
+
+.left-nav{
+    width:20rem;
+    margin-left:1rem;
+ 
+}
+
+.left-nav img{
+    width:100%;
+  
+}
+
+.right-nav{
+    display: flex;
+    margin-right:3rem;
+    margin-top:20px;
+} 
+
+.badge-portion{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 5.5rem;
+    width: 5.5rem;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    padding-left:2rem;
+    padding-right:0.5rem;
+    margin-right:3rem;
+    cursor: pointer;
+}
+
+.badge-portion i{
+ 
+    color: var(--color-primary);
+}
+
+.badge-portion:hover{
+    background-color: var(--color-primary-opacity); 
+}
+
+.btn-secondary{
+    border-radius: 3rem;
+    background-color: var(--color-primary);
+    color: #222;
+    padding: 0.8rem 2.5rem;
+    margin-right: 4rem;
+    margin-top:1.3rem;
+    font-weight: 800;
+    
+}
+
+
+.btn-secondary:active,
+.btn-secondary:hover{
+    color: inherit;
+    background-color: var(--color-primary-darker);
+    color: #333;
+    opacity:1;
+}
+
+
+
+.inp-btn{
+    width:40rem;
+    height:4rem;
+    background-color: var(--color-primary-opacity);
+    margin-right: 3rem;
+    margin-top:1rem;
+   
+}
+
+
+/* IMAGE CONTAINER */
+
+.image-container img{
+    width:300px;
+    height:200px;
+}
+
+
+.image1{
+    position: relative;
+    top:300px;
+    left:40px;
+    z-index:2;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.image2{
+    position: relative;
+    top:400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.image3{
+    position: relative;
+    top:500px;
+    right:20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.image4{
+    position: relative;
+    top:110px;
+    right:600px;
+    z-index:3;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
