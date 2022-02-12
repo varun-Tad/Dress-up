@@ -99,9 +99,6 @@ body{
    
 }
 
-
-
-
 /* Filters section */
 
 
@@ -167,15 +164,11 @@ body{
 }
 
 
-  .gender-filter-list li,.sort-by-list li,.categories-list li,.ratings-list li{
+.gender-filter-list li,.sort-by-list li,.categories-list li,.ratings-list li{
       margin-top:7px;
   }
 
-
-
-
-
-  .products{
+.products{
       margin-top:50px;
   }
 
