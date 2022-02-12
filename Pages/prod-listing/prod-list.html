@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login| Dress Up</title>
+    <link rel="stylesheet" href="https://powerui.netlify.app/Components/component.css">
+    <link rel="stylesheet" href="prod-list.css">
+</head>
+<body>
+   
+    <nav class="main-navbar">
+        <div class="left-nav">
+            <img src="../../images/logo.png" alt="logo-pic">
+        </div>
+    
+        <div class="right-nav">
+            
+            <div class="basic-input-textboxes">
+                <label for="products"></label>
+                <input class="basic-input-box inp-btn" type="text" placeholder="Search products">
+            </div>
+            <div class="badge-portion">
+                <i class="fa fa-heart-o fa-2x navicon-color"></i>
+                
+            </div>
+            <div class="badge-portion">
+                <i class="fa-solid fa-cart-shopping fa-2x navicon-color"></i>
+            </div>
+        </div>
+    </nav>
+    
+<section class="prod-land">
+
+
+  <aside class="filter-section">
+
+    <div class="filter-header">
+       <h3>Filter</h3>
+       <h4>Clear All</h4>
+    </div>
+    <div class="border"></div>
+    <div class="gender-filter">
+        <ul class="gender-filter-list">
+            <li>
+                <input type="radio" name="gender" value="Men">
+                <label for="Men">Men</label>
+            </li>
+            <li>
+                <input type="radio" name="gender" value="Women">
+                <label for="Women">Women</label><br>
+            </li>
+            <li>
+
+                <input type="radio" name="gender" value="Kids">
+                <label for="Kids">Kids</label><br>
+            </li>
+        </ul>
+    </div>
+    <div class="border"></div>
+    <div class="sort-price">
+        
+        <ul class="sort-by-list">
+            <p>SORT BY</p>
+            <li>
+                <input type="radio" name="sort-by" value="Price low to high">
+                <label for="Price low to high">Price low to high</label>
+            </li>
+            <li>
+                <input type="radio" name="sort-by" value="Price high to low">
+                <label for="Price high to low">Price high to low</label>
+            </li>
+        </ul>
+    </div>
+    <div class="border"></div>
+
+    <div class="categories">
+        <ul class="categories-list">
+            <p>Categories</p>
+            <li>
+                <input type="checkbox"name="categories" value="Tshirts">
+                <label for="Tshirts"> Tshirts</label>
+            </li>
+            <li>
+                <input type="checkbox"name="categories" value="Shirts">
+                <label for="Shirts"> Shirts</label>
+            </li>
+            <li>
+                <input type="checkbox"name="categories" value="Watches">
+                <label for="Watches"> Watches</label>
+            </li>
+            <li>
+                <input type="checkbox"name="categories" value="Skirts">
+                <label for="Skirts">Skirts</label>
+            </li>
+            <li>
+
+                <input type="checkbox"name="categories" value="Shoes">
+                <label for="Shoes">Shoes</label>
+            </li>
+        </ul>
+       
+    </div>
+    <div class="border"></div>
+    <div class="ratings">
+        <ul class="ratings-list">
+            <p>Ratings</p>
+            <li>
+                <input type="checkbox"name="ratings" value="5 Stars">
+                <label for="5 Star"> 5 Stars</label>
+            </li>
+            <li>
+                <input type="checkbox"name="ratings" value="4 Stars">
+                <label for="4 Stars"> 4 Stars</label>
+            </li>
+            <li>
+                <input type="checkbox"name="ratings" value="3 Stars">
+                <label for="3 Stars"> 3 stars</label>
+            </li>
+            <li>
+                <input type="checkbox"name="ratings" value="2 Stars">
+                <label for="2 Stars"> 2 Stars</label>
+            </li>
+            <li>
+                <input type="checkbox"name="ratings" value="1 Star">
+                <label for="1 Star"> 1 Star</label>
+            </li>
+        </ul>
+    </div>
+  </aside>
+
+  <main class="products">
+    
+<div class="card-vessel">
+
+    <div class="card-content">
+        <div class="image-contain">
+            <img src="../../images/jeans.jpeg" alt="Jeans">
+        </div>
+        <div class="card-wrap">
+            <div class="card-text-contain">
+                <h4>U.S. Polo Assn.
+                    <i class="fa fa-heart"></i>
+                </h4>
+                <p>₹ 2000 <span>₹3999</span>(40% OFF)</p>
+                <p class="rate">3 <i class="fa fa-star fa-md"></i>| 5</p>
+            </div>
+            <div class="button-text-contain">
+                <button type="button" class="btn btn-success btns btn-one">Buy Now</button>
+                <button type="button" class="btn btn-success btns btn-two"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-content">
+        <div class="image-contain">
+            <img src="../../images/denim-jeans.jpeg" alt="Jeans">
+        </div>
+        <div class="card-wrap">
+            <div class="card-text-contain">
+                <h4>U.S. Polo Assn. Denim Co.
+                    <i class="fa fa-heart"></i>
+                </h4>
+                <p>₹ 1759 <span>₹3199</span>(45% OFF)</p>
+                <p class="rate">4 <i class="fa fa-star fa-md"></i>| 5</p>
+            </div>
+            <div class="button-text-contain">
+                <button type="button" class="btn btn-success btns btn-one">Buy Now</button>
+                <button type="button" class="btn btn-success btns btn-two"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-content">
+        <div class="image-contain">
+            <img src="../../images/jeans-two.jpeg" alt="Jeans">
+        </div>
+        <div class="card-wrap">
+            <div class="card-text-contain">
+                <h4>U.S. Polo Assn. Denim Co.
+                    <i class="fa fa-heart"></i>
+                </h4>
+                <p>₹2699 <span>₹3599</span> (25% OFF)</p>
+                <p class="rate">5 <i class="fa fa-star fa-md"></i>| 5</p>
+            </div>
+            <div class="button-text-contain">
+                <button type="button" class="btn btn-success btns btn-one">Buy Now</button>
+                <button type="button" class="btn btn-success btns btn-two"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="card-vessel">
+
+    <div class="card-content">
+        <div class="image-contain">
+            <img src="../../images/shoe-one.jpeg" alt="Jeans">
+        </div>
+        <div class="card-wrap">
+            <div class="card-text-contain">
+                <h4>U.S. Polo Assn Formal shoes
+                    <i class="fa fa-heart"></i>
+                </h4>
+                <p>₹ 2999 <span>₹3999</span>(25% OFF)</p>
+                <p class="rate">4 <i class="fa fa-star fa-md"></i>| 5</p>
+            </div>
+            <div class="button-text-contain">
+                <button type="button" class="btn btn-success btns btn-one">Buy Now</button>
+                <button type="button" class="btn btn-success btns btn-two"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-content">
+        <div class="image-contain">
+            <img src="../../images/flip-flops.jpeg" alt="Jeans">
+        </div>
+        <div class="card-wrap">
+            <div class="card-text-contain">
+                <h4>Puma Flip Flops
+                    <i class="fa fa-heart"></i>
+                </h4>
+                <p>₹ 1124 <span>₹1499</span>(25% OFF)</p>
+                <p class="rate">5 <i class="fa fa-star fa-sm"></i> | 5</p>
+            </div>
+            <div class="button-text-contain">
+                <button type="button" class="btn btn-success btns btn-one">Buy Now</button>
+                <button type="button" class="btn btn-success btns btn-two"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-content">
+        <div class="image-contain">
+            <img src="../../images/hand-bag.jpeg" alt="hand-bag">
+        </div>
+        <div class="card-wrap">
+            <div class="card-text-contain">
+                <h4>Lavie Handbag
+                    <i class="fa fa-heart"></i>
+                </h4>
+                <p>₹ 447 <span>₹995</span>(55% OFF)</p>
+                <p class="rate">4 <i class="fa fa-star fa-md"></i>| 5</p>
+            </div>
+            <div class="button-text-contain">
+                <button type="button" class="btn btn-success btns btn-one">Buy Now</button>
+                <button type="button" class="btn btn-success btns btn-two"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="card-vessel">
+
+    <div class="card-content">
+        <div class="image-contain">
+            <img src="../../images/women-watch.jpeg" alt="Jeans">
+        </div>
+        <div class="card-wrap">
+            <div class="card-text-contain">
+                <h4>DressBerry Women Mauve Analogue Watch
+                    <i class="fa fa-heart"></i>
+                </h4>
+                <p>₹ 1084 <span>₹3099</span>(65% OFF)</p>
+                <p class="rate">5 <i class="fa fa-star fa-md"></i>| 5</p>
+            </div>
+            <div class="button-text-contain">
+                <button type="button" class="btn btn-success btns btn-one">Buy Now</button>
+                <button type="button" class="btn btn-success btns btn-two"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-content">
+        <div class="image-contain">
+            <img src="../../images/top.jpeg" alt="Jeans">
+        </div>
+        <div class="card-wrap">
+            <div class="card-text-contain">
+                <h4>H&M Women Pink Collared Top
+                    <i class="fa fa-heart"></i>
+                </h4>
+                <p>₹ 799</p>
+                <p class="rate">3 <i class="fa fa-star fa-md"></i>| 5</p>
+            </div>
+            <div class="button-text-contain">
+                <button type="button" class="btn btn-success btns btn-one">Buy Now</button>
+                <button type="button" class="btn btn-success btns btn-two"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+  </main>
+
+</section>
+
+<footer class="footer">
+
+    <div class="shop-by">
+        <p class="shop-by-heading">SHOP BY</p>
+        <P>Men</p>
+        <p>Women</p>
+        <p>Kids</p>
+        <p>New Arrivals</p>
+    </div>
+
+    <div class="dress-up">
+        <p class="dress-up-heading">DRESS UP</p>
+        <p>Contact us</p>
+        <p>FAQ</p>
+        <p>Track Orders</p>
+        <p>Cancellation</p>
+
+    </div>
+
+    <div class="about-us">
+     <p class="about-us-heading">ABOUT US</p>
+     <P>blogs</p>
+     <p>Contact</p>
+     <p>Careers</p>
+   </div>
+
+
+
+
+</footer>
+
+
+
+
+
+<script src="https://kit.fontawesome.com/2aa1dc31bc.js" crossorigin="anonymous"></script>
+</body>
+</html>
