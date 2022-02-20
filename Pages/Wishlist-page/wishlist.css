@@ -18,6 +18,10 @@
     --lighter-grey:#222;
     --grey-color:#808080;
     --color-beige:#F5F5DC;
+    --footer-color:#37383d;
+    --hover-light-grey:#eee;
+    --heart-red:#fc0303;
+    --star-gold:#FFD700;
 
   }
 
@@ -89,6 +93,29 @@ body{
 .badge-portion:hover{
     background-color: var(--color-primary-opacity); 
 }
+
+
+
+.btn-secondary{
+    border-radius: 3rem;
+    background-color: var(--color-primary);
+    color: var(--lighter-grey);
+    padding: 0.8rem 2.5rem;
+    margin-right: 4rem;
+    margin-top:1.3rem;
+    font-weight: 800;
+    
+}
+
+
+.btn-secondary:active,
+.btn-secondary:hover{
+    color: inherit;
+    background-color: var(--color-primary-darker);
+    color: var(--light-grey);
+    opacity:1;
+}
+
 
 .inp-btn{
     width:40rem;
@@ -183,7 +210,7 @@ body{
 
 
  .rate .fa-star{
-   color: gold;
+   color: var(--star-gold);
  }
 
  /* CARDS BUTTONS */
@@ -196,7 +223,7 @@ body{
 }
 
 .fa-heart{
-    color:red;
+    color:var(--heart-red);
 }
 
 
@@ -207,9 +234,9 @@ body{
     display:flex;
     flex-direction: row;
     justify-content:space-around;
-    background-color: #37383d;
+    background-color: var(--footer-color);
     font-size: 1.6rem;
-    color:#eee;
+    color:var(--hover-light-grey);
     margin-top: 10rem;
     padding-top:5rem;
     padding-bottom: 5rem;
