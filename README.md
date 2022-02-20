@@ -7,9 +7,13 @@ Hosted Link- [DressUp](https://dress-up.netlify.app/)
 
 ## Sneak peek
 
-
+Sing up Page
 ![doc](/images/signup-image.png)
+
+My Cart Page
 
 ![doc](/images/mycart-image.png)
 
+
+Login Page
 ![doc](/images/login-image.png)
