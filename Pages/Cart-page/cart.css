@@ -98,7 +98,7 @@ body{
 .btn-secondary{
     border-radius: 3rem;
     background-color: var(--color-primary);
-    color: #222;
+    color: var(--lighter-grey);
     padding: 0.8rem 2.5rem;
     margin-right: 4rem;
     margin-top:1.3rem;
@@ -111,7 +111,7 @@ body{
 .btn-secondary:hover{
     color: inherit;
     background-color: var(--color-primary-darker);
-    color: #333;
+    color: var(--light-grey);
     opacity:1;
 }
 
